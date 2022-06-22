@@ -1,0 +1,101 @@
+body {
+	font-family: 'Josefin Sans';
+	background-color: #fffafb;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+.react-horizontal-scrolling-menu--wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.hero-banner-img {
+	position: absolute;
+	right: 40px;
+	top: 0px;
+	width: 600px;
+	height: 750px;
+	margin-top: -330px;
+	border-bottom-left-radius: 100px;
+}
+
+.bodyPart-card:hover {
+	transform: scale(1, 1);
+	border-top: 7px solid #ff2625;
+}
+.exercise-card:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.bodyPart-card {
+	transform: scale(1, 1);
+	transition: 0.3s all ease-in-out;
+}
+.exercise-card {
+	transform: scale(1, 1);
+	border-top: 7px solid #ff2625;
+	transition: 0.3s all ease-in-out;
+	max-width: 360px;
+	background-color: white;
+}
+.right-arrow,
+.left-arrow {
+	cursor: pointer;
+	background: transparent;
+	outline: none;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ff2625;
+	font-size: 25px;
+	border-radius: 4px;
+	position: absolute;
+	bottom: -20px;
+	right: 80px;
+	transform: scale(1, 1);
+	transition: 0.3s all ease-in-out;
+}
+
+.right-arrow {
+	right: 140px;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+	transform: scale(1.3, 1.3);
+}
+
+.react-horizontal-scrolling-menu--wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.detail-image {
+	width: 500px;
+	height: 500px;
+	margin-left: 40px;
+}
+
+.detail-icon {
+	width: 70%;
+}
+
+.exercise-video {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	width: 300px;
+	height: 280px;
+	text-decoration: none;
+}
