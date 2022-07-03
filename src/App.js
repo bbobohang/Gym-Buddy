@@ -6,11 +6,15 @@ import ExerciseDetail from './Component/Pages/ExerciseDetail';
 import Footer from './Component/Footer';
 import Navbar from './Component/Navbar';
 import ScrollToTop from '../src/utils/ScrollToTop';
+import { useEffect } from 'react';
+import { fetchData, options } from './utils/fetchData';
+import Exercises from './Component/Exercises';
 
 function App() {
 	return (
 		<Box>
 			<Navbar />
+			<ScrollToTop />
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/exercise/:id' element={<ExerciseDetail />} />

@@ -35,7 +35,11 @@ const HorizontalScrollBar = ({
 }) => {
 	if (isSimilar) {
 		return (
-			<ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
+			<ScrollMenu
+				LeftArrow={LeftArrow}
+				RightArrow={RightArrow}
+				style={{ height: '100px' }}
+			>
 				{data.map((item) => (
 					<Box
 						key={item.id || item}

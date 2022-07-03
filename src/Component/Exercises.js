@@ -3,7 +3,7 @@ import Pagination from '@mui/material/Pagination';
 import { Box, Stack, Typography } from '@mui/material';
 import { fetchData, options } from '../utils/fetchData';
 import ExerciseCard from './ExerciseCard';
-
+import database from '../data.json';
 const Exercises = ({ exercises, bodyPart, setExercises }) => {
 	const [currentPage, setCurrentPage] = useState(1);
 
@@ -24,15 +24,9 @@ const Exercises = ({ exercises, bodyPart, setExercises }) => {
 			let bodyPartData = [];
 
 			if (bodyPart === 'all') {
-				bodyPartData = await fetchData(
-					'https://exercisedb.p.rapidapi.com/exercises',
-					options
-				);
+				bodyPartData = database;
 			} else {
-				bodyPartData = await fetchData(
-					`https://exercisedb.p.rapidapi.com/exercises/bodyPart/${bodyPart}`,
-					options
-				);
+				bodyPartData = database.filter((item) => item.bodyPart === bodyPart);
 			}
 			setExercises(bodyPartData);
 		};
@@ -41,7 +35,7 @@ const Exercises = ({ exercises, bodyPart, setExercises }) => {
 	return (
 		<Box id='exercises' sx={{ mt: { lg: '110px' } }} mt='50px' p='20px'>
 			<Typography variant='h3' mb='46px'>
-				Showing Results
+				Showing Results ({exercises.length})
 			</Typography>
 			{exercises.length === 0 ? (
 				<div>Search for something</div>

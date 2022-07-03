@@ -41,9 +41,8 @@ const Detail = ({
 					Exercises keep you strong.
 					<br />
 					<span style={{ textTransform: 'capitalize' }}>{name}</span> is one of the
-					best <br /> exercises to target your {target}. It will help you improve{' '}
-					<br />
-					your mood and gain energy.
+					best exercises to target your {target}. <br />
+					It will help you improve your mood and gain energy.
 				</Typography>
 
 				{extraDetail.map((item, index) => (
