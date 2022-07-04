@@ -39,7 +39,8 @@ const Footer = () => {
 				color='white'
 				pb='40px'
 			>
-				Source code can be found <a href='#'>here</a>
+				Source code can be found{' '}
+				<a href='https://github.com/bbobohang/Gym-Buddy'>here</a>
 			</Typography>
 		</Box>
 	);
