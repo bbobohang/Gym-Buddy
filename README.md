@@ -9,7 +9,7 @@ Live demo can be found here: https://gym-buddy-reactjs.netlify.app/
 * Slider to allow user filter exercises based on specific body parts
 * Animated GIF for demostration of exercises
 * Pagination 
-* Recommendations of related exercises that target the body parts/uses the same type of equipments
+* Recommendations of related exercises that target the body parts/use the same type of equipments
 
 # Screenshots
 
