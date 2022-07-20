@@ -1,6 +1,6 @@
 # Gym Buddy Web Application
 
-An application used to search and learn excercises based on user preference (Body parts/equipment), built with React, Javascript, CSS, Material UI and RapidAPI.
+An application used to search and learn exercises based on user preference (Body parts/equipment), built with React, Javascript, CSS, Material UI and RapidAPI.
 
 Live demo can be found here: https://gym-buddy-reactjs.netlify.app/
 
