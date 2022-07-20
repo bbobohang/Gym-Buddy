@@ -17,6 +17,12 @@ Live demo can be found here: https://gym-buddy-reactjs.netlify.app/
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
 Installation:
+<img width="956" alt="1" src="https://user-images.githubusercontent.com/72592202/179931130-5b0846f8-41b7-4ada-ae6a-563a5191ee78.png">
+<img width="931" alt="2" src="https://user-images.githubusercontent.com/72592202/179931127-c794f1b1-cb58-4284-b64e-6e1de4b6c2f7.png">
+<img width="914" alt="3" src="https://user-images.githubusercontent.com/72592202/179931125-2e17f59a-8a6d-4d4f-b36c-bbc73f743de1.png">
+<img width="892" alt="4" src="https://user-images.githubusercontent.com/72592202/179931122-bb331254-0f21-4ecd-9ebb-91adec67f1b8.png">
+
+
 
 `npm install`  
 
