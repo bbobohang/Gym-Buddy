@@ -50,7 +50,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
 	};
 	return (
 		<Stack alignItems='center' mt='37px' justifyContent='center' p='20px'>
-			<Typography fontSize='44px' textAlign='center' fontWeight={700} mb='20px'>
+			<Typography textAlign='center' fontWeight={700} fontSize='44px' mb='20px'>
 				Awesome Exercises <br />
 				You Should Know
 			</Typography>
@@ -58,7 +58,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
 				<TextField
 					sx={{
 						input: { fontWeight: '700', border: 'none', borderRadius: '40px' },
-						width: { lg: '1100px', xs: '350px' },
+						width: { lg: '1100px', xs: '200px' },
 						backgroundColor: '#fff',
 						borderRadius: '40px',
 					}}

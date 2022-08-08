@@ -38,7 +38,7 @@ const Exercises = ({ exercises, bodyPart, setExercises }) => {
 				Showing Results ({exercises.length})
 			</Typography>
 			{exercises.length === 0 ? (
-				<div>Search for something</div>
+				<div>No exercise found! Try something else!</div>
 			) : (
 				<Fragment>
 					<Stack

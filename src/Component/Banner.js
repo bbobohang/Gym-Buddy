@@ -4,20 +4,23 @@ import banner from '../assets/banner.png';
 const Banner = () => {
 	return (
 		<Box
-			sx={{ mt: { lg: '70px', xs: '70px' }, ml: { sm: '50px' } }}
+			sx={{
+				mt: { lg: '70px', xs: '70px' },
+				ml: { sm: '50px' },
+			}}
 			position='relative'
-			p='0px'
+			p='10px'
 		>
 			<Typography color='#FF2625' fontWeight='600' fontSize='26px' mt='0px'>
-				Fitness Club
+				Gym Buddy
 			</Typography>
 			<Typography mb='23px' mt='30px' fontWeight='700' fontSize='26px'>
-				Sweat Smile <br /> and Repeat
+				Learn the perfect exercises <br /> for your workout
 			</Typography>
 			<Typography fontSize='20px' lineHeight='35px' mb='3px'>
 				Check out the most effective exercises
 			</Typography>
-			<Button variant='contained' color='error' href='#exercise'>
+			<Button variant='contained' color='error' href='#exercises'>
 				Explore exercises
 			</Button>
 			<Typography

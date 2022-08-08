@@ -2,7 +2,9 @@ body {
 	font-family: 'Josefin Sans';
 	background-color: #fffafb;
 }
-
+html {
+	scroll-behavior: smooth;
+}
 * {
 	padding: 0px;
 	margin: 0px;
@@ -27,7 +29,11 @@ body {
 	margin-top: -330px;
 	border-bottom-left-radius: 100px;
 }
-
+@media screen and (max-width: 1024px) {
+	.hero-banner-img {
+		visibility: hidden;
+	}
+}
 .bodyPart-card:hover {
 	transform: scale(1, 1);
 	border-top: 7px solid #ff2625;
